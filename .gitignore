@@ -1,0 +1,24 @@
+# Ignore everything
+*
+
+# Exclude items from ignore
+!.gitignore
+!README.md
+!AutoCommit.ps
+
+!.obsidian/
+!.obsidian/snippets/
+!.obsidian/snippets/*
+
+!🧑‍💻 Coding/
+
+!🧑‍💻 Coding/📕 Books/
+!🧑‍💻 Coding/📕 Books/Think Java.pdf
+
+!🧑‍💻 Coding/📚 Guides/
+!🧑‍💻 Coding/📚 Guides/*.md
+
+!🧑‍💻 Coding/🗒️ Notes/
+!🧑‍💻 Coding/🗒️ Notes/*.md
+
+!🧑‍💻 Coding/🔗 Links
