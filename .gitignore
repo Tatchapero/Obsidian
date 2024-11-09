@@ -4,7 +4,7 @@
 # Exclude items from ignore
 !.gitignore
 !README.md
-!AutoCommit.ps
+!AutoCommit.ps1
 
 !.obsidian/
 !.obsidian/snippets/
