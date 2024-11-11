@@ -358,13 +358,20 @@ Car *-- Radio : Has-a relationship
 - **Subclass**: Child - The class that inherits from another class
 - **Superclass**: Parent - The class being inherited from
 - **Protected**: Access modifier - Allows a subclass to inherit a attribute that is private for the super- and subclass.
-- **Dynamic Binding**: When you assign a subclass to a superclass `Fruit fruit = new Banana();`
+- **Static Binding**: When the binding can be resolved at compile time. Also known as early binding. All static, private and final methods are bound at compile-time.
+- **Dynamic Binding**: When the compiler doesn't decide the method to be called. Also known as late binding. For example in Overriding, the method is decided at runtime, if the superclass method, or the subclass method should be called.
 - **Polymorphism**: From Greek, "Poly" meaning "many" and "morph" meaning "forms". In programming, Polymorphing is the use of inheritance and overriding to reshape a superclass.
 
 # Data structures
-- **List**:
-- **Set**:
-- **Map**:
-- **Hashing**:
-- **Hashcode**:
+- **List**: An **ordered** collection of objects in which **duplicate values can be stored** `List<String> list = new ArrayList<>();` 
+- **Set**: An **unordered** collection of objects in which **duplicate values cannot be stored** `Set<String> set = new HashSet<>();`
+- **Map**: A key (index) value pair data structure, where keys are unique identifiers `Map<String, Integer> map = new HashMap<>();`
+- **Hashing**: A function that maps keys to a hash index. A hash index is the indexes of a Hashtable. The function uses modulus `%` of the Hashtable size to calculate the hash index. The initial size of a Hashtable is 11, unless explicitly specified. 
+  
+```
+hashIndex = key % hashTableSize
+```
+
+- **Chain hashing**: When multiple keys have same hash index, the hash index will turn into a Linked List, that can carry multiple keys
+- **Hashcode**: A method in Hashtables that returns the primitive integer value represented by the key. If the key is already an integer, it will simply be the same as the key. For other object types, Java will translate the object into an integer.
 - **O-notation**:
