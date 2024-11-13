@@ -14,4 +14,5 @@
 3. Fill:
    - URL: https://github.com/Tatchapero/Obsidian.git
    - Directory: (your Obsidian vault)
-4. 
+4. Click Clone
+5. 
