@@ -10,4 +10,8 @@
 
 ## Clone GitHub project
 1. Open IntelliJ
-2. 
+2. File > New > Project from Version Control
+3. Fill:
+   - URL: https://github.com/Tatchapero/Obsidian.git
+   - Directory: (your Obsidian vault)
+4. 
