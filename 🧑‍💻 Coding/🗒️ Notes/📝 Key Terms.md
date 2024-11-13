@@ -355,8 +355,8 @@ Car *-- Radio : Has-a relationship
 	- An interface cannot contain a constructor (as it cannot be used to create objects)
 - **Super**: Keyword used to call superclass method and access the superclass constructor
 - **Override**: Overloading a superclass method
-- **Subclass**: Child - The class that inherits from another class
-- **Superclass**: Parent - The class being inherited from
+- **Subclass**: When another class inherits/extends your class. Also known as a child class.
+- **Superclass**: When your class inherits/extends another class. Also known as a parent class.
 - **Protected**: Access modifier - Allows a subclass to inherit a attribute that is private for the super- and subclass.
 - **Static Binding**: When the binding can be resolved at compile time. Also known as early binding. All static, private and final methods are bound at compile-time.
 - **Dynamic Binding**: When the compiler doesn't decide the method to be called. Also known as late binding. For example in Overriding, the method is decided at runtime, if the superclass method, or the subclass method should be called.
