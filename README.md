@@ -7,3 +7,7 @@
 4. Click Create new vault
 5. Provide a name and a location
 6. Click Create
+
+## Clone GitHub project
+1. Open IntelliJ
+2. 
