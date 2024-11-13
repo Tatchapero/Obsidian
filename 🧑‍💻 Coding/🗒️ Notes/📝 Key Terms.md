@@ -365,7 +365,7 @@ Car *-- Radio : Has-a relationship
 # Data structures
 - **List**: An **ordered** collection of objects in which **duplicate values can be stored** `List<String> list = new ArrayList<>();` 
 - **Set**: An **unordered** collection of objects in which **duplicate values cannot be stored** `Set<String> set = new HashSet<>();`
-- **Map**: A key (index) value pair data structure, where keys are unique identifiers `Map<String, Integer> map = new HashMap<>();`
+- **Map**: A Key/Value pair data structure, where keys are unique identifiers `Map<String, Integer> map = new HashMap<>();`
 - **Hashing**: A function that maps keys to a hash index. A hash index is the indexes of a Hashtable. The function uses modulus `%` of the Hashtable size to calculate the hash index. The initial size of a Hashtable is 11, unless explicitly specified. 
   
 ```
