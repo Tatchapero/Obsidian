@@ -299,8 +299,8 @@ public class Printer {
 }
 ```
 
-- **Public**: A keyword used as access modifier for classes, attributes, methods and constructors, making them ==accessible== by any other class.
-- **Private**: A keyword used as access modifier for classes, attributes, methods and constructors, making them ==inaccessible== by any other class.
+- **Public**: A keyword used as access modifier for classes, attributes, methods and constructors, making them **accessible** by any other class.
+- **Private**: A keyword used as access modifier for classes, attributes, methods and constructors, making them **inaccessible** by any other class.
 - **UML Diagram**: Unified Modeling Language - A standarized language for visualizing software system designs
 	- Class Dummy
 	- Private field1
@@ -342,7 +342,7 @@ Car *-- Radio : Has-a relationship
 ```
 
 - **Extends**: Keyword used to inherit from a class `public class Banana extends Fruit`
-- **Implements**: Keyword used to implement an interface ``
+- **Implements**: Keyword used to implement an interface 
 - **Abstract**: Keyword used for classes and methods as non-access modifier
 	- **Abstract class**: A restricted class that cannot be used to create objects. It must be inherited from another class
 	- **Abstract method**: Can only be used in an abstract class, and does not have a body/implementation. The body is provided by the subclass. 
