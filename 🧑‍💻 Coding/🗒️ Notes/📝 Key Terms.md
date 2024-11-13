@@ -360,7 +360,7 @@ Car *-- Radio : Has-a relationship
 - **Protected**: Access modifier - Allows a subclass to inherit a attribute that is private for the super- and subclass.
 - **Static Binding**: When the binding can be resolved at compile time. Also known as early binding. All static, private and final methods are bound at compile-time.
 - **Dynamic Binding**: When the compiler doesn't decide the method to be called. Also known as late binding. For example in Overriding, the method is decided at runtime, if the superclass method, or the subclass method should be called.
-- **Polymorphism**: From Greek, "Poly" meaning "many" and "morph" meaning "forms". In programming, Polymorphing is the use of inheritance and overriding to reshape a superclass.
+- **Polymorphism**: From Greek, "Poly" meaning "many" and "morph" meaning "forms". In programming, Polymorphing is the use of inheritance and overriding methods to reshape a superclass.
 
 # Data structures
 - **List**: An **ordered** collection of objects in which **duplicate values can be stored** `List<String> list = new ArrayList<>();` 
