@@ -373,5 +373,5 @@ hashIndex = key % hashTableSize
 ```
 
 - **Chain hashing**: When multiple keys have same hash index, the hash index will turn into a Linked List, that can carry multiple keys
-- **Hashcode**: A method in Hashtables that returns the primitive integer value represented by the key. If the key is already an integer, it will simply be the same as the key. For other object types, Java will translate the object into an integer.
-- **O-notation**:
+- **Hashcode**: A method in Hashtables that returns the primitive integer value represented by the key. If the key is already an integer, it will simply be the same as the key. For other object types, Java will translate the object into an integer
+- **O-notation**: A standardized way of comparing efficiency of different algorithms in terms of worst-case performance
