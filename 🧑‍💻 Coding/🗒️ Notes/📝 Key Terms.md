@@ -1,8 +1,8 @@
 #Java
 
 # Code
-- **Code**: A list of instructions to tell a computer how to perform and complete tasks
-	- **Source code**: The type of code that humans write `Java`, `C#`, `Python`. Can be compiled into Machine code or Byte code
+- **Code**: A set of instructions written by humans to tell a computer how to perform and complete tasks
+	- **Source code**: Human-readable code written in programming languages like `Java`, `C#`, `Python`. Can be compiled into **Machine code** or **Byte code**
 	- **Machine code**: Source code can be compiled into Machine code. It is the type of code that the CPU understands
 	- **Byte code:** Source code can be compiled into Byte code. It is the type of code that the interpreter JVM (Java Virtual Machine) can convert into Machine code. Interpreted code runs slower than fully compiled code - On the contrary, interpreted code can be platform independent. 
 - **Syntax**: The rules that define how the code should be written such as `;` after each line of code
