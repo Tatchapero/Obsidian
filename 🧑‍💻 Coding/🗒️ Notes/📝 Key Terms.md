@@ -388,3 +388,9 @@ hashIndex = key % hashTableSize
 - **Chain hashing**: When multiple keys have same hash index, the hash index will turn into a Linked List, that can carry multiple keys
 - **Hashcode**: A method in Hashtables that returns the primitive integer value represented by the key. If the key is already an integer, it will simply be the same as the key. For other object types, Java will translate the object into an integer
 - **O-notation**: A standardized way of comparing efficiency of different algorithms in terms of worst-case performance
+	- <span style="color: limegreen;"><b>O(1)</b></span>: Constant runtime regardless of collection size
+	- <span style="color: yellow;"><b>O(log n)</b></span>: As collection size increases, runtime flattens
+	- <span style="color: dodgerblue;"><b>O(n)</b></span> As collection size increases, runtime increases proportionally
+	- <span style="color: red;"><b>O(n<sup>2</sup>)</b></span>: Runtime increases exponentially to the number of elements in the collection
+
+![Big O Notation](https://miro.medium.com/v2/resize:fit:720/format:webp/1*FkQzWqqIMlAHZ_xNrEPKeA.png)
