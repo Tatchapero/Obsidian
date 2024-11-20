@@ -364,11 +364,11 @@ Car *-- Radio : Has-a relationship
 
 # Data structures
 - **List**: An **ordered** collection of objects in which **duplicate values can be stored** `List<String> list = new ArrayList<>();` 
-	- ArrayList is better at storing data
-	- LinkedList is better at manipulating data
+	- `ArrayList` is better at storing data
+	- `LinkedList` is better at manipulating data
 - **Set**: A collection of objects in which **duplicate values cannot be stored** `Set<String> set = new HashSet<>();`
-	- HashSet is unordered, but performs faster
-	- TreeSet is ordered using Binary Sort, but performs slower 
+	- `HashSet` is unordered, but performs faster
+	- `TreeSet` is ordered using Binary Sort, but performs slower 
 - **Map**: A Key/Value pair data structure, where keys are unique identifiers. Instead of calling by index number, Maps are called by their Key:
   
 ```java
