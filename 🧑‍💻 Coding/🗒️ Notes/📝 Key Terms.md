@@ -272,12 +272,11 @@ System.out.println(fruit1.equals(fruit3)); // TRUE
 
 ```java
 public class Main {
-  
 
   public static void main(String[] args) {
     // Static method invocation
     Printer.myStaticMethod(); // Prints "Static method 0"
-    Prtiner.myStaticMethod(); // Prints "Static method 1"
+    Printer.myStaticMethod(); // Prints "Static method 1"
 
     // Public method invocatoin
     Printer obj = new Printer();
